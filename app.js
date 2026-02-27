@@ -1,6 +1,6 @@
 import express from 'express';
 import cors from 'cors';
-import usersRouter from '../backend/controllers/usersController.js';
+import usersRouter from './controllers/usersController.js';
 
 const app = express();
 app.use(cors()); // Enabling Cross Origin
